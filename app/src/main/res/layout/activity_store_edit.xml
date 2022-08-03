@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreEditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_storename"
+            android:hint="Store Name"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            />
+
+        <EditText
+            android:id="@+id/edit_address"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/edit_storename"
+            android:hint="Address"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_address"
+            android:id="@+id/edit_telp"
+            android:hint="Telepon"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            />
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/input_img"-->
+<!--            android:layout_below="@id/edit_telp">-->
+<!--            <ImageView-->
+<!--                android:layout_width="120dp"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:id="@+id/img_input_store"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:background="@drawable/ic_image"-->
+<!--                />-->
+<!--        </RelativeLayout>-->
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_telp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:padding="17dp"
+            android:text="Sumbit"
+            tools:ignore="NotSibling" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

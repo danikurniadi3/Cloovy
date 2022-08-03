@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254901372185",
+    "project_id": "cloovy",
+    "storage_bucket": "cloovy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254901372185:android:2db09c023b95da14f3f188",
+        "android_client_info": {
+          "package_name": "com.dani.cloovy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254901372185-8cjvpmev00fufooapd0do2j5bnureq31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmqb1lFTIQdFwXgJbW1LDyoP9PzXCIW-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254901372185-8cjvpmev00fufooapd0do2j5bnureq31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
